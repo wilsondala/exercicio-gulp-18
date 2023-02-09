@@ -1,0 +1,38 @@
+
+/* 
+body{
+    background-image: url(/assets/images/1_fotoWilson.jpg.png);
+    background-size: contain;
+    background-repeat: round;
+    background-repeat: repeat-y;
+    width: 100%;
+    border: 2px solid black;
+   
+
+} */
+
+/* ALTERAR AQUI OPACIDADE DO STE OU SEJA A CLAREZA */
+body{
+    opacity: 0.9;
+    filter: alpha(opacity=40);
+}
+
+.texto{
+    align-items: center;
+    text-align: right;
+}
+
+.sobreMim{
+	margin-top: 50px;
+	background-image: url(/assets/images/banner-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px 0px;
+	background-position: center center;
+}
+
+.sobreMim .caption {
+	background-color: rgba(139, 134, 121, 0.9);
+	padding: 60px;
+	max-width: 550px;
+}
